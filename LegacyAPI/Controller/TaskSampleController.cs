@@ -9,6 +9,7 @@ namespace LegacyAPI.Controller
         [Route("api/init/{id}")]
         public string Init(int taskId)
         {
+            //return "NotOk";
             return "OK";
         }
 
